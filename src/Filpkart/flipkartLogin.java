@@ -13,7 +13,6 @@ public class flipkartLogin {
 		driver.get("https://www.flipkart.com/");
 		driver.findElement(By.name("q")).sendKeys("iphone");
 		driver.findElement(By.xpath("//button[@type=\"submit\"]")).click();
-		
 		driver.close();
 		
 	}
